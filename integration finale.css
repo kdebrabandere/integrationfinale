@@ -1,0 +1,174 @@
+/** Navbar **/
+.navbar{
+  background-color: darkorange;
+  margin: 0px;
+}
+
+.collapse {
+  float: right;
+
+}
+
+.navbar li a:link {
+  color: white;
+}
+.navbar li a:visited {
+  color: white;
+}
+.navbar li a:active {
+  color: white;
+}
+.navbar li a:hover {
+  color: white;
+}
+.nav li+li {
+  border-left: 1px solid white;
+}
+
+/** Font **/
+
+@font-face {
+  font-family: 'partybusiness.ttf';
+  src: url('partybusiness.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'anicb___.ttf';
+  src: url('anicb___.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  font-family: 'partybusiness.ttf', sans-serif;
+  font-size: 2vw;
+}
+p {
+  font-family: 'partybusiness.ttf', sans-serif;
+  font-size: 3vw;
+}
+
+h3 {
+  font-family: 'partybusiness.ttf', sans-serif;
+  font-size: 5vw;
+}
+h2 {
+  font-family: 'anicb___.ttf', sans-serif;
+  font-size: 2vw;
+  text-align: center;
+}
+h4 {
+  font-family: 'partybusiness.ttf', sans-serif;
+  font-size: 4vw;
+  color: white;
+}
+
+.fellowswanted a {
+  font-family: 'partybusiness.ttf', sans-serif;
+  font-size: 2vw;
+  color: black;
+}
+/** Carousel **/
+
+#myCarousel {
+  width: 100%;
+  height: 46vw;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+.item img {
+  width: 100%;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  margin-bottom: 15vw;
+}
+
+/** Fellows Wanted **/
+
+.thumbnail img {
+  border: 5px solid black;
+  border-radius: 4px;
+  padding: 0px;
+  width: 50vw;
+  opacity: 0.5;
+}
+
+.thumbnail img:hover {
+  opacity: 1;
+}
+
+.reward {
+  position: absolute;
+  background:rgba(255,255,255,0.8);
+  border-radius: 4px;
+  text-align: center;
+  top: 5%;
+  left: 15%;
+  right: 15%;
+  padding: 0px;
+  margin: 0px;
+  transition:top 0.3s ease;
+}
+
+.reward-number {
+  color: orange;
+}
+
+h4 {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 25%;
+  padding: 10px;
+  transition:top 0.3s ease;
+
+}
+.profile:hover .reward {
+  opacity: 0;
+}
+
+.profile:hover h4 {
+  top: 60%;
+  font-size: 2vw;
+}
+.dead {
+  position: absolute;
+  text-align: center;
+  top: 15%;
+  left: 15%;
+  right: 15%;
+  padding: 10px;
+  transition:top 0.3s ease;
+  color: orange;
+}
+.deadgimli {
+  text-decoration: line-through orange;
+
+}
+
+.profile:hover .dead {
+  opacity: 0;
+}
+
+.undertextreward {
+  color: white;
+  background-color: black;
+  text-align: center;
+  position: relative;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #FAEBD7;
+}
